@@ -5,45 +5,45 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bar&Pub</title>
+    <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" type="image/x-icon"  href="img/icons88.ico">
     <meta name="description" content="Bar&pub disfruta de tu familia y amigos en nuestras instalaciones con nuestras mejores bebidas y cocteles.">
 </head>
 <body>
     <header>
-        <div>
-            <h1>Bar&Pub</h1>
+        <div class="navIzq">
+            <h1 class="tituloPagina">Bar&Pub</h1>
         </div>
-        <div>
+        <div class="navDer">
             <nav> 
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="menu.html">Menú</a></li>
-                    <li><a href="reserva.html">Reserva</a></li>
-                    <li><a href="contacto.html">Contactenos</a></li>
+                <ul class="listamenu">
+                    <li class="navItemMenu"><a class="linkItem" href="#">Home</a></li>
+                    <li class="navItemMenu"><a class="linkItem" href="menu.html">Menú</a></li>
+                    <li class="navItemMenu"><a class="linkItem" href="reserva.html">Reserva</a></li>
+                    <li class="navItemMenu"><a class="linkItem" href="contacto.html">Contactenos</a></li>
                 </ul>
             </nav>
         </div>
     </header>
-    <main>
-        <section>
-            <h2>Quienes somos</h2>
-            <img src="img/couple-talking-bartender.jpg" alt="" width="450" height="300">
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+    <main class="principal">
+        <section class="sectmain">
+            <div class="ctnrTitulo">
+                <h2 class="ttlSection">Quienes somos</h2>
+            </div>
+            <div class="ctnrParrafo">
+                <p class="parrMain">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga nisi consequuntur assumenda necessitatibus, ea labore rerum maiores aliquid cupiditate architecto earum repellat expedita beatae nesciunt delectus nobis? Asperiores, labore laboriosam.</p>
+            </div>
         </section>
     </main>
     <footer>
-        <div>
-            <h6>copyrigth @ 2023 bar&pub Derechos Reservados</h6>
+        <div class="ftrtop">
+            <h6 class="ttlFooter">copyright @ 2023 bar&pub Derechos Reservados</h6>
         </div>
-        <div>
-            <a href="#">
-                <img src="https://cdn-icons-png.flaticon.com/512/49/49354.png" alt="Facebook" width="20" height="20"></a>
-            <a href="#">
-                <img src="data:image/png;base64,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" alt="Instagram" width="20" height="20"></a>
-            <a href="#">
-                <img src="https://w7.pngwing.com/pngs/396/246/png-transparent-logo-tik-tok.png" alt="Tik Tok" width="20" height="20"></a>
-            <a href="https://www.youtube.com/@MENTORJOGLAN">
-                <img src="https://w7.pngwing.com/pngs/115/555/png-transparent-youtube-computer-icons-logo-silhouette-youtube-angle-desktop-wallpaper-w-kamau-bell-thumbnail.png" alt="Youtube" width="25" height="25"></a>  
+        <div class="ftrbottom">
+            <a class="linkfooter" href="#"><img src="/img/tik-tok.png" alt="" width="20px" height="20px"> TIKTOK</a>
+            <a class="linkfooter" href="#"><img src="/img/facebook.png" alt="" width="20px" height="20px"> FACEBOOK </a>
+            <a class="linkfooter" href="#"><img src="/img/instagram.png" alt="" width="20px" height="20px"> INSTAGRAM </a>
+            <a class="linkfooter" href="https://www.youtube.com/@MENTORJOGLAN"><img src="/img/youtube.png" alt="" width="20px" height="20px"> YOUTUBE</a>
         </div>
     </footer>
 </body>
