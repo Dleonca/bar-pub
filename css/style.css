@@ -1,5 +1,6 @@
-
-  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,700&family=Zeyada&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Julee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
 *{
     box-sizing: border-box;
 }
@@ -214,7 +215,188 @@ label, .lblform{
     border:none;
     cursor: pointer;
 }
+/* main manu */
+.menuSection{
+    width: 100%;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 15px;
+    box-sizing: border-box;
+}
+.targetcontent{
+    margin: 5px 10px;
+    width: 300px;
+    height: 500px;
+}
+.imgA,.imgB,.imgC,.imgD,.imgE,.imgF,.imgG,.imgH{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.imgA {
+    background-image: url(/img/wined.jpeg);
+}
+.imgB {
+    background-image: url(/img/cocktail.jpg);
+}
+.imgC {
+    background-image: url(/img/cerveza.jpg);
+}
+.imgD {
+    background-image: url(/img/tequila.jpg);
+}
+.imgE {
+    background-image: url(/img/vodka.jpg);
+}
+.imgF {
+    background-image: url(/img/champagnes.jpeg);
+}
+.imgG {
+    background-image: url(/img/whisky.jpg);
+}
+.imgH {
+    background-image: url(/img/ginebra.jpg);
+}
+.ptarget, .ptargetN{
+    margin: 0;
+    font-size: 35px;
+    font-family: 'Oswald', sans-serif;
+}
+.ptarget{
+    color: #fff;
+}
+.ptargetN{
+    color: #000;
+}
+.targethead{
+    width: 100%;
+    height: 15%;
+    background-color: #FEF2E6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.titletarget{
+    margin: 0;
+    font-family: 'Julee', cursive;
+    font-size: 35px;
+   
+}
+.targetbody{
+    width: 100%;
+    height: 75%;
+    display: flex;
+    flex-direction: row;
+}
 
+
+.targetfinal{
+    width: 100%;
+    height: 10%;
+    background-color: #fff  ; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p{
+    margin: 0;
+}
+.transp{
+    background-color: transparent;
+    width: 50%;
+    height: 100%;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wine{
+    background-color: #581845  ; 
+    opacity: 0.6;
+    width: 50%;
+    height: 100%;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mango{
+    background-color: #B6F988;
+    opacity: 0.6;
+    width: 50%;
+    height: 100%;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.jean{
+    background-color:  #0C327F;
+    opacity: 0.6;
+    width: 50%;
+    height: 100%;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sunny{
+    background-color: #FCFE80;
+    opacity: 0.6;
+    width: 50%;
+    height: 100%;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cereza{
+    background-color: #B10D3F;
+    opacity: 0.6;
+    width: 50%;
+    height: 100%;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.blue{
+    background-color: #AAF9F6;
+    opacity: 0.6;
+    width: 50%;
+    height: 100%;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.negra{ 
+    background-color: #000;
+    opacity: 0.8;
+    width: 50%;
+    height: 100%;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.madera{
+    background-color: #B25405;
+    opacity: 0.6;
+    width: 50%;
+    height: 100%;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 /* footer */
 footer{
     box-sizing: border-box;
